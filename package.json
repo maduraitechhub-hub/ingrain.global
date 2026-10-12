@@ -1,0 +1,28 @@
+{
+  "name": "ingrain.global",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "fetch-assets": "node scripts/fetch-assets.mjs"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.1.0",
+    "@fontsource/tinos": "^5.1.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "next": "^15.0.3",
+    "nodemailer": "^6.9.15",
+    "react": "^19.0.0",
+    "react-bootstrap": "^2.10.5",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.0.3"
+  }
+}

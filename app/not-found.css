@@ -1,0 +1,45 @@
+.notFoundSection {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--gradient-primary);
+  padding: 100px 0;
+}
+
+.notFoundInner {
+  text-align: center;
+}
+
+.notFoundCode {
+  font-family: var(--font-heading);
+  font-size: clamp(5rem, 14vw, 9rem);
+  color: rgba(253, 252, 253, 0.18);
+  font-weight: 700;
+  line-height: 1;
+  display: block;
+}
+
+.notFoundInner h1 {
+  color: var(--color-off-white);
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  margin: 10px 0 14px;
+}
+
+.notFoundInner p {
+  color: rgba(253, 252, 253, 0.75);
+  max-width: 460px;
+  margin: 0 auto 34px;
+  line-height: 1.7;
+}
+
+.notFoundActions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.notFoundOutline {
+  border-color: var(--color-off-white);
+}
